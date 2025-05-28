@@ -24,7 +24,7 @@ A autenticação foi configurada no projeto de forma que a chave de acesso não 
 
 ## Armazenamento dos Dados
 
-As requisições foram realizadas nos endpoints  **`/comics`, `/characters` , `/events`e `/series`  
+As requisições foram realizadas nos endpoints `/comics`, `/characters` , `/events`e `/series`  
 Os dados obtidos no formato JSON foram carregados em dataframes utilizando a biblioteca **Pandas**. Após limpeza e padronização, foram inseridos em um banco de dados Relacional usando SQLite3, respeitando as formas normais.
 
 ## Análise dos Dados e Apresentação
